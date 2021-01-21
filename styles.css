@@ -1,0 +1,31 @@
+*{
+    color: maroon;
+    font-family: poppins;
+}
+body{
+    background-image: linear-gradient(to right, #ffafbd ,  #ffc3a0);
+}
+.container{
+    max-width: 600px;
+    box-shadow: rgba(0,0, 0,0.9);
+}
+.delete{
+    cursor: pointer;
+}
+.delete:hover{
+    transform: scale(0.9);
+}
+
+input[type=text],input[type=text]:focus{
+    color: maroon;
+    border:none;
+    background: rgba(0,0, 0,0.1);
+}
+
+.filtered{
+    display: none !important;
+
+}
+.todos-ul li{
+    background: #ffc1a0;
+}
